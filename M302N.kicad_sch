@@ -524,12 +524,12 @@
 				)
 			)
 		)
-		(symbol "holly:W5500"
+		(symbol "holly:W5500LARGE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -1.27 11.43 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -537,14 +537,15 @@
 				)
 			)
 			(property "Value" "W5500"
-				(at 1.27 13.97 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "HOLLY2:W5500LARGE"
 				(at 0 0 0)
 				(effects
 					(font
@@ -554,15 +555,6 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at -1.27 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Tzt smart electronics USR-ES1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -571,7 +563,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "w5500 LAN NIC SPI"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -580,131 +572,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "W5500_0_1"
+			(symbol "W5500LARGE_0_1"
 				(rectangle
-					(start -5.08 7.62)
-					(end 6.35 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.81 8.89)
-					(end 5.08 7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 20.32 20.32)
-					(end 20.32 20.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 20.32 20.32)
-					(end 20.32 20.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 20.32 20.32)
-					(end 20.32 20.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 20.32 20.32)
-					(end 20.32 20.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 20.32 20.32)
-					(end 20.32 20.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 20.32 20.32)
-					(end 20.32 20.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 20.32 20.32)
-					(end 20.32 20.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 20.32 20.32)
-					(end 20.32 20.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 20.32 20.32)
-					(end 20.32 20.32)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 20.32 20.32)
-					(end 20.32 20.32)
+					(start -7.62 -1.27)
+					(end 7.62 -15.24)
 					(stroke
 						(width 0)
 						(type default)
@@ -714,198 +585,34 @@
 					)
 				)
 			)
-			(symbol "W5500_1_1"
-				(pin free line
-					(at -7.62 6.35 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
+			(symbol "W5500LARGE_1_1"
+				(text "RJ-45"
+					(at 9.144 -16.764 0)
+					(effects
+						(font
+							(size 0.762 0.762)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
+				)
+				(text "W5500\nLARGE"
+					(at 0.508 -9.398 0)
+					(effects
+						(font
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(pin power_in line
-					(at 8.89 1.27 180)
-					(length 2.54)
-					(name "3V3"
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "3.3V"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 3.81 180)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 8.89 6.35 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at -7.62 3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 1.27 0)
-					(length 2.54)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -1.27 0)
-					(length 2.54)
-					(name "SCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -3.81 0)
-					(length 2.54)
-					(name "CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -6.35 0)
-					(length 2.54)
-					(name "INT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -6.35 180)
-					(length 2.54)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -3.81 180)
-					(length 2.54)
-					(name "RST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
+					(number "J1-1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -914,19 +621,307 @@
 					)
 				)
 				(pin no_connect line
-					(at 8.89 -1.27 180)
-					(length 2.54)
-					(name "NC"
+					(at 12.7 -12.7 180)
+					(length 5.08)
+					(name "N/C"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "J1-10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "5V"
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1-2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1-3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1-4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1-5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1-6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "SCS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1-7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1-8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at -12.7 -12.7 0)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1-9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at -6.35 -20.32 90)
+					(length 5.08)
+					(name "TD+"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "J2-1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at -3.81 -20.32 90)
+					(length 5.08)
+					(name "TD-"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "J2-2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at -1.27 -20.32 90)
+					(length 5.08)
+					(name "RD+"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "J2-3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "J2-4"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 1.27 -17.78 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "J2-5"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at 3.81 -20.32 90)
+					(length 5.08)
+					(name "RD-"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "J2-6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -17.78 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "J2-7"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 6.35 -17.78 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "J2-8"
+						(effects
+							(font
+								(size 0.508 0.508)
 							)
 						)
 					)
@@ -1742,7 +1737,6 @@
 	)
 	(label "D4"
 		(at 154.94 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1753,7 +1747,6 @@
 	)
 	(label "*D5"
 		(at 154.94 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1764,7 +1757,6 @@
 	)
 	(label "A2"
 		(at 101.6 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1775,7 +1767,6 @@
 	)
 	(label "D7"
 		(at 154.94 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1786,7 +1777,6 @@
 	)
 	(label "D13{slash}SCK"
 		(at 101.6 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1797,7 +1787,6 @@
 	)
 	(label "A7"
 		(at 101.6 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1808,7 +1797,6 @@
 	)
 	(label "*D6"
 		(at 154.94 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1819,7 +1807,6 @@
 	)
 	(label "*D11{slash}MOSI"
 		(at 154.94 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1830,7 +1817,6 @@
 	)
 	(label "A1"
 		(at 101.6 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1841,7 +1827,6 @@
 	)
 	(label "A4{slash}SDA"
 		(at 101.6 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1852,7 +1837,6 @@
 	)
 	(label "A5{slash}SCL"
 		(at 101.6 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1863,7 +1847,6 @@
 	)
 	(label "A3"
 		(at 101.6 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1874,7 +1857,6 @@
 	)
 	(label "~{RESET}"
 		(at 154.94 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1885,7 +1867,6 @@
 	)
 	(label "~{RESET}"
 		(at 101.6 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1896,7 +1877,6 @@
 	)
 	(label "A6"
 		(at 101.6 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1907,7 +1887,6 @@
 	)
 	(label "A0"
 		(at 101.6 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1918,7 +1897,6 @@
 	)
 	(label "*D9"
 		(at 154.94 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1929,7 +1907,6 @@
 	)
 	(label "*D3"
 		(at 154.94 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1940,7 +1917,6 @@
 	)
 	(label "D2"
 		(at 154.94 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1951,7 +1927,6 @@
 	)
 	(label "D8"
 		(at 154.94 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1962,7 +1937,6 @@
 	)
 	(label "D1{slash}TX"
 		(at 154.94 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1973,7 +1947,6 @@
 	)
 	(label "D0{slash}RX"
 		(at 154.94 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1984,7 +1957,6 @@
 	)
 	(label "AREF"
 		(at 101.6 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1995,7 +1967,6 @@
 	)
 	(label "*D10{slash}SS"
 		(at 154.94 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2006,7 +1977,6 @@
 	)
 	(label "D12{slash}MISO"
 		(at 154.94 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2427,104 +2397,6 @@
 		)
 	)
 	(symbol
-		(lib_id "holly:W5500")
-		(at 82.55 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "904a281d-2721-4e34-b92e-33b85121ea66")
-		(property "Reference" "U101"
-			(at 90.17 44.2425 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "W5500"
-			(at 90.17 46.6668 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tzt smart electronics USR-ES1"
-			(at 82.55 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "a6ad74f5-297c-455e-a52b-2601a9536b73")
-		)
-		(pin "7"
-			(uuid "e0c443a0-9cb2-4e40-ab7a-27b313cfa941")
-		)
-		(pin "8"
-			(uuid "f83a2798-47b4-4734-a051-b1248285f1ea")
-		)
-		(pin "1"
-			(uuid "340d5097-9d14-4169-bb7e-29ed1058d8c3")
-		)
-		(pin "6"
-			(uuid "559d4199-c0d2-4ddf-9b05-d1ea0f9f1a50")
-		)
-		(pin "10"
-			(uuid "5476023d-b87f-40ee-8ca3-1a213b365c0c")
-		)
-		(pin "11"
-			(uuid "6291afcc-995a-40b7-a06f-8893cfacd6ac")
-		)
-		(pin "12"
-			(uuid "674fb90a-5e45-45ae-8548-076b8782b01c")
-		)
-		(pin "2"
-			(uuid "fb0f3654-8f44-4868-b534-0abd58be2e49")
-		)
-		(pin "3"
-			(uuid "2e7c0996-e8f4-47d2-8587-b0061099ab0e")
-		)
-		(pin "4"
-			(uuid "428b8194-c2f0-40e3-84ec-a46a6c967d8b")
-		)
-		(pin "9"
-			(uuid "e9b5abdf-29f0-46b6-9df2-de8e8e733471")
-		)
-		(instances
-			(project ""
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "U101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 142.24 106.68 0)
 		(unit 1)
@@ -2584,6 +2456,123 @@
 			(project "Arduino_Nano"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "holly:W5500LARGE")
+		(at 205.74 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0d9579c-a272-4a43-8187-80b7866bc158")
+		(property "Reference" "U1"
+			(at 207.4697 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "W5500"
+			(at 205.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "HOLLY2:W5500LARGE"
+			(at 205.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "J2-8"
+			(uuid "be2615e9-424e-46f9-b907-3a6ddc6a6d5e")
+		)
+		(pin "J1-9"
+			(uuid "3a94b373-bb78-4b2e-a09e-78ef20b2de06")
+		)
+		(pin "J2-4"
+			(uuid "973ed17a-0608-4cc6-bef5-dd73fa4f1461")
+		)
+		(pin "J2-7"
+			(uuid "35ce944a-1541-412d-9565-08f6a6a0e2f6")
+		)
+		(pin "J1-3"
+			(uuid "e8e63d87-60f2-49de-9d2a-92c881ae035e")
+		)
+		(pin "J1-4"
+			(uuid "26d4ac4e-3738-4468-8a9e-87f5a86e6257")
+		)
+		(pin "J1-5"
+			(uuid "c242b8b5-e9f8-42c7-81f7-968c64c52307")
+		)
+		(pin "J1-6"
+			(uuid "65c00698-19e2-4735-9aee-2540cbca92b1")
+		)
+		(pin "J1-2"
+			(uuid "4d4068bc-66a6-43bc-85d2-13823e93b55b")
+		)
+		(pin "J1-10"
+			(uuid "9d879682-998e-43ae-8eb7-0c4e638a5c5b")
+		)
+		(pin "J1-1"
+			(uuid "a07419ee-12b2-410e-901a-d9baf4bd1f37")
+		)
+		(pin "J2-1"
+			(uuid "493666fe-f4d7-41a4-b049-f0a2d2fbd0fd")
+		)
+		(pin "J2-5"
+			(uuid "6d295c92-bb81-47d3-a3bb-93291b8bc46a")
+		)
+		(pin "J2-2"
+			(uuid "685d38ed-32c5-4817-8492-67ced16dbce6")
+		)
+		(pin "J1-8"
+			(uuid "dc561ef9-26a2-4ae1-a25c-56bbdfa6e4ed")
+		)
+		(pin "J2-6"
+			(uuid "e7f648d9-e847-48c1-8339-dbfc6ccc5f53")
+		)
+		(pin "J1-7"
+			(uuid "b77ea50c-e102-481c-a819-705e31584e96")
+		)
+		(pin "J2-3"
+			(uuid "4441859f-f1e6-4933-a3eb-79a619f32ec1")
+		)
+		(instances
+			(project ""
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "U1")
 					(unit 1)
 				)
 			)
