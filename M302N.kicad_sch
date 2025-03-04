@@ -10887,7 +10887,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "b0d9579c-a272-4a43-8187-80b7866bc158")
 		(property "Reference" "U1"
