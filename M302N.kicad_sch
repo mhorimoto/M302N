@@ -5793,12 +5793,6 @@
 		(uuid "6f2824ed-f107-4c4b-9879-6e12618c38cb")
 	)
 	(junction
-		(at 260.35 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c9d41fe-6682-404f-8f34-84f8aac0de21")
-	)
-	(junction
 		(at 196.85 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5895,6 +5889,12 @@
 		(uuid "e9832537-1521-4349-88be-f38d96440f37")
 	)
 	(junction
+		(at 259.08 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea61d72c-de8c-4ae4-b7c8-606ec776304b")
+	)
+	(junction
 		(at 104.14 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5939,10 +5939,6 @@
 	(no_connect
 		(at 133.35 109.22)
 		(uuid "03465c1a-c77d-4009-bd59-56351c01b2ba")
-	)
-	(no_connect
-		(at 266.7 82.55)
-		(uuid "0bef8a46-f8f1-4e20-8622-de199eb7f24b")
 	)
 	(no_connect
 		(at 269.24 82.55)
@@ -5997,12 +5993,16 @@
 		(uuid "abed5847-0b5e-45c2-beb1-f6d94b22fb6a")
 	)
 	(no_connect
-		(at 261.62 82.55)
+		(at 271.78 82.55)
 		(uuid "b0305917-54bd-449b-858f-6c292aaca31e")
 	)
 	(no_connect
 		(at 266.7 67.31)
 		(uuid "b67b6506-12a0-4b96-825a-99c15cbbd753")
+	)
+	(no_connect
+		(at 264.16 82.55)
+		(uuid "ddb74dd9-ba45-41fe-9ada-6a2022fbe126")
 	)
 	(no_connect
 		(at 198.12 17.78)
@@ -6268,7 +6268,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 100.33) (xy 260.35 102.87)
+			(xy 259.08 100.33) (xy 259.08 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6338,7 +6338,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 82.55) (xy 264.16 105.41)
+			(xy 261.62 82.55) (xy 261.62 105.41)
 		)
 		(stroke
 			(width 0)
@@ -6475,6 +6475,16 @@
 			(type default)
 		)
 		(uuid "33daf3e9-c12d-46c6-86cf-af56310575c4")
+	)
+	(wire
+		(pts
+			(xy 261.62 105.41) (xy 257.81 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e8b5ea-4830-4738-90e3-eda5c8971985")
 	)
 	(wire
 		(pts
@@ -6808,7 +6818,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 113.03) (xy 271.78 82.55)
+			(xy 274.32 113.03) (xy 274.32 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6978,7 +6988,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 102.87) (xy 257.81 102.87)
+			(xy 259.08 102.87) (xy 257.81 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6998,7 +7008,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 115.57) (xy 274.32 82.55)
+			(xy 266.7 115.57) (xy 266.7 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7108,7 +7118,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 95.25) (xy 208.28 95.25)
+			(xy 259.08 95.25) (xy 208.28 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7328,7 +7338,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 100.33) (xy 260.35 100.33)
+			(xy 257.81 100.33) (xy 259.08 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7408,7 +7418,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 95.25) (xy 260.35 100.33)
+			(xy 259.08 95.25) (xy 259.08 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7548,7 +7558,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 115.57) (xy 274.32 115.57)
+			(xy 257.81 115.57) (xy 266.7 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7558,7 +7568,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 113.03) (xy 271.78 113.03)
+			(xy 257.81 113.03) (xy 274.32 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7665,16 +7675,6 @@
 			(type default)
 		)
 		(uuid "b6988456-68b3-4296-be52-809dcf068aba")
-	)
-	(wire
-		(pts
-			(xy 264.16 105.41) (xy 257.81 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8732a28-5573-4e4f-a4f7-2e87d542266d")
 	)
 	(wire
 		(pts
@@ -8377,7 +8377,7 @@
 		(uuid "013e42a4-6780-4683-baf0-06a8b05d55fc")
 	)
 	(label "*D11{slash}MOSI"
-		(at 163.83 71.12 180)
+		(at 165.1 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8427,7 +8427,7 @@
 		(uuid "c7c752d9-073c-43c6-aa61-7daad5f6cc5f")
 	)
 	(label "*D10{slash}SS"
-		(at 163.83 73.66 180)
+		(at 163.83 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8437,7 +8437,7 @@
 		(uuid "f17347a3-5341-4d84-921e-21b145a275f5")
 	)
 	(label "D12{slash}MISO"
-		(at 163.83 68.58 180)
+		(at 165.1 20.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8541,6 +8541,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
@@ -9105,7 +9106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm"
 			(at 190.5 127.508 90)
 			(effects
 				(font
@@ -11729,7 +11730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HOLLY2:NJM2845"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 			(at 93.98 143.51 0)
 			(effects
 				(font
