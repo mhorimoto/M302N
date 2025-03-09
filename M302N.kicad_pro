@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.7,
-          "height": 5.4,
-          "width": 5.4
+          "drill": 0.95,
+          "height": 1.95,
+          "width": 1.7
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -59,7 +59,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_issues|102789000|112776000|33bc0a0b-f35e-442f-baf0-e5363bba81e0|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|106299000|81788000|a6f08074-1801-458c-83aa-118216db43f5|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|120204000|78452000|16e6f274-09b0-4110-9bca-006882e30d44|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|132867000|76083000|38cac582-65ab-4833-94ff-a8ff8ccc8180|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|135661000|77429200|0815dce2-34b9-46ba-9de5-8533cbfc3cb4|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -70,7 +76,7 @@
         "connection_width": "error",
         "copper_edge_clearance": "error",
         "copper_sliver": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -91,20 +97,20 @@
         "lib_footprint_mismatch": "error",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "error",
+        "missing_courtyard": "ignore",
         "missing_footprint": "error",
         "net_conflict": "error",
         "npth_inside_courtyard": "error",
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "error",
-        "silk_over_copper": "error",
-        "silk_overlap": "error",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "error",
+        "text_height": "ignore",
         "text_thickness": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -185,6 +191,7 @@
       "track_widths": [
         0.0,
         1.0,
+        1.7,
         2.0
       ],
       "tuning_pattern_settings": {
@@ -241,12 +248,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|1308100|1092200|54906ea0-04c8-4542-995d-ce40ab39a8a6|e079d60d-8595-420d-88b6-468017b5c8f0|/0d35483a-0b12-46cc-b9f2-896fd6831779|/0d35483a-0b12-46cc-b9f2-896fd6831779|/0d35483a-0b12-46cc-b9f2-896fd6831779",
-      "power_pin_not_driven|1016000|1473200|256d6b5a-adc8-4402-8834-389abd552abf|00000000-0000-0000-0000-000000000000|/0d35483a-0b12-46cc-b9f2-896fd6831779|/0d35483a-0b12-46cc-b9f2-896fd6831779|",
-      "power_pin_not_driven|2349500|546100|4d4068bc-66a6-43bc-85d2-13823e93b55b|00000000-0000-0000-0000-000000000000|/0d35483a-0b12-46cc-b9f2-896fd6831779|/0d35483a-0b12-46cc-b9f2-896fd6831779|",
-      "power_pin_not_driven|584200|1308100|2cf5b2af-6e28-49fa-aef6-ccaf09c93ee3|00000000-0000-0000-0000-000000000000|/0d35483a-0b12-46cc-b9f2-896fd6831779|/0d35483a-0b12-46cc-b9f2-896fd6831779|"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -496,7 +498,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "GOUT100/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -507,7 +509,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "M302N-BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

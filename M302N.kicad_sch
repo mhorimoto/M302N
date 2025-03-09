@@ -6,10 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "M302N")
-		(date "2025-03-07")
-		(rev "0.99")
+		(date "2025-03-09")
+		(rev "1.00")
 		(company "YS-Lab Masafumi Horimoto")
-		(comment 1 "Comming soon")
 	)
 	(lib_symbols
 		(symbol "001-rescue:EMI_Filter_LCL-Device"
