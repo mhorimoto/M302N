@@ -12628,6 +12628,208 @@
 			(justify left bottom)
 		)
 	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "49533157-92c7-4d60-9e40-5b670e52a792")
+		(pts
+			(xy 81.28 62.865) (xy 167.005 62.865)
+		)
+		(height -10.9728)
+		(gr_text "85.7250 mm"
+			(at 124.1425 50.7422 0)
+			(layer "Dwgs.User")
+			(uuid "49533157-92c7-4d60-9e40-5b670e52a792")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.12)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "a02bb2ef-1aff-4a95-9ad1-78c1f87e85ff")
+		(pts
+			(xy 166.9288 121.4882) (xy 171.1452 121.5136)
+		)
+		(height -0.031485)
+		(gr_text "4.20 mm"
+			(at 175.8442 120.5992 359.6548489)
+			(layer "Dwgs.User")
+			(uuid "a02bb2ef-1aff-4a95-9ad1-78c1f87e85ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+			(override_value "4.20")
+		)
+		(style
+			(thickness 0.12)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "a4309f10-2cec-4589-b282-cbbd642b5145")
+		(pts
+			(xy 71.12 114.554) (xy 171.196 114.554)
+		)
+		(height 19.2278)
+		(gr_text "100.00 mm"
+			(at 121.158 132.6318 0)
+			(layer "Dwgs.User")
+			(uuid "a4309f10-2cec-4589-b282-cbbd642b5145")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+			(override_value "100.00")
+		)
+		(style
+			(thickness 0.12)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "a6470aa7-a883-40a5-9e94-0d7e54507c21")
+		(pts
+			(xy 171.196 58.547) (xy 171.196 114.554)
+		)
+		(height -11.7094)
+		(gr_text "56.00 mm"
+			(at 181.7554 86.5505 90)
+			(layer "Dwgs.User")
+			(uuid "a6470aa7-a883-40a5-9e94-0d7e54507c21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+			(override_value "56.00")
+		)
+		(style
+			(thickness 0.12)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "d501bc6e-ce9d-4943-9f05-cc9f20f8d546")
+		(pts
+			(xy 167.005 62.865) (xy 167.005 109.855)
+		)
+		(height -11.3792)
+		(gr_text "47.00 mm"
+			(at 177.2342 86.36 90)
+			(layer "Dwgs.User")
+			(uuid "d501bc6e-ce9d-4943-9f05-cc9f20f8d546")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+			(override_value "47.00")
+		)
+		(style
+			(thickness 0.12)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "d6396177-0cab-4067-93f3-6a46632cc66e")
+		(pts
+			(xy 75.565 109.855) (xy 167.005 109.855)
+		)
+		(height 11.5824)
+		(gr_text "91.4400 mm"
+			(at 121.285 120.2874 0)
+			(layer "Dwgs.User")
+			(uuid "d6396177-0cab-4067-93f3-6a46632cc66e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.12)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
 	(segment
 		(start 153.67 91.44)
 		(end 153.67 102.21)
