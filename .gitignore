@@ -18,6 +18,7 @@ _autosave-*
 fp-info-cache
 M302N-backups/*
 *.FCBak
+3DPRN/*.FCStd?
 
 # Netlist files (exported from Eeschema)
 *.net
