@@ -5,9 +5,9 @@
 	(uuid "0d35483a-0b12-46cc-b9f2-896fd6831779")
 	(paper "A4")
 	(title_block
-		(title "M302N")
-		(date "2025-03-09")
-		(rev "1.00")
+		(title "M302N (under constructions)")
+		(date "2025-04-03")
+		(rev "2.00")
 		(company "YS-Lab Masafumi Horimoto")
 	)
 	(lib_symbols
@@ -6017,12 +6017,6 @@
 		(uuid "693ea362-75a1-4337-acce-9912f04dac2d")
 	)
 	(junction
-		(at 58.42 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f2824ed-f107-4c4b-9879-6e12618c38cb")
-	)
-	(junction
 		(at 196.85 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6047,12 +6041,6 @@
 		(uuid "8c5ba6b2-42a9-440e-83ba-545cac1b7ee5")
 	)
 	(junction
-		(at 58.42 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91d10a36-ca18-4eb1-bdc1-ddfd0c97dd99")
-	)
-	(junction
 		(at 114.3 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6071,12 +6059,6 @@
 		(uuid "a4624eb2-6ec9-42a6-9476-df10ef0dca0d")
 	)
 	(junction
-		(at 67.31 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bec884ec-d581-4bcd-9e8a-83c107a42a2f")
-	)
-	(junction
 		(at 114.3 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6093,12 +6075,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7bc60e7-f7d5-401c-92d0-af8400a38f39")
-	)
-	(junction
-		(at 67.31 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8ca7fa9-6309-4f02-b514-6d8fc8bba228")
 	)
 	(junction
 		(at 63.5 147.32)
@@ -6374,16 +6350,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 107.95) (xy 67.31 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "156c3fa4-5883-4f5a-9297-31ec1a02fb0e")
-	)
-	(wire
-		(pts
 			(xy 172.72 88.9) (xy 172.72 91.44)
 		)
 		(stroke
@@ -6581,16 +6547,6 @@
 			(type default)
 		)
 		(uuid "29a61c11-ad47-44ca-920e-bbd936a5f83c")
-	)
-	(wire
-		(pts
-			(xy 53.34 110.49) (xy 69.85 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eeacc22-971b-4ed9-9cd1-d33a1797694b")
 	)
 	(wire
 		(pts
@@ -6804,16 +6760,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 124.46) (xy 72.39 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bc81687-9d30-4b4c-86d1-67eb583af9da")
-	)
-	(wire
-		(pts
 			(xy 158.75 147.32) (xy 158.75 151.13)
 		)
 		(stroke
@@ -6894,16 +6840,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 127) (xy 58.42 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59a7e77f-b112-4968-bee4-fbc3b55028fd")
-	)
-	(wire
-		(pts
 			(xy 80.01 147.32) (xy 63.5 147.32)
 		)
 		(stroke
@@ -6951,16 +6887,6 @@
 			(type solid)
 		)
 		(uuid "5fea5a40-bcf6-43c3-9d64-b2de989d5513")
-	)
-	(wire
-		(pts
-			(xy 53.34 113.03) (xy 58.42 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6272634c-ce59-4c68-9ed9-ff5ee8b17dad")
 	)
 	(wire
 		(pts
@@ -7094,26 +7020,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 81.28) (xy 123.19 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75f5a691-0c6f-4ca5-b29a-60ba237c14f7")
-	)
-	(wire
-		(pts
-			(xy 69.85 110.49) (xy 69.85 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7699cc1c-b517-4e19-96dd-dbbbcb3e8125")
-	)
-	(wire
-		(pts
 			(xy 259.08 102.87) (xy 257.81 102.87)
 		)
 		(stroke
@@ -7151,16 +7057,6 @@
 			(type default)
 		)
 		(uuid "7a24feaa-ce54-4fd0-9c1b-54ce484d5943")
-	)
-	(wire
-		(pts
-			(xy 72.39 124.46) (xy 72.39 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b2c8941-baf9-4875-af27-4537dc19c29a")
 	)
 	(wire
 		(pts
@@ -7331,16 +7227,6 @@
 			(type default)
 		)
 		(uuid "94894b9a-01b6-4f43-9c30-d8ac45deef2a")
-	)
-	(wire
-		(pts
-			(xy 58.42 127) (xy 53.34 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96c3cbb7-ecac-426c-a43c-ae6ff2533009")
 	)
 	(wire
 		(pts
@@ -7824,7 +7710,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 113.03) (xy 58.42 127)
+			(xy 58.42 99.06) (xy 58.42 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7924,16 +7810,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 93.98) (xy 67.31 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca500bbe-397c-46b3-8292-ccc1297290cb")
-	)
-	(wire
-		(pts
 			(xy 157.48 90.17) (xy 171.45 90.17)
 		)
 		(stroke
@@ -7951,16 +7827,6 @@
 			(type default)
 		)
 		(uuid "cd0753f2-b8ba-4454-80a5-08d6602cfebd")
-	)
-	(wire
-		(pts
-			(xy 58.42 99.06) (xy 58.42 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd6e74ed-a41b-43b1-954f-c044b1d41f90")
 	)
 	(wire
 		(pts
@@ -8114,16 +7980,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 83.82) (xy 123.19 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc18009d-cec6-4c45-804a-128f4e6c0f70")
-	)
-	(wire
-		(pts
 			(xy 135.89 161.29) (xy 148.59 161.29)
 		)
 		(stroke
@@ -8181,16 +8037,6 @@
 			(type default)
 		)
 		(uuid "e0fd0abd-4fb8-45af-9475-690e8e23a89e")
-	)
-	(wire
-		(pts
-			(xy 53.34 107.95) (xy 67.31 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e109c35c-a7dc-4a76-bdb6-376abee3dbfe")
 	)
 	(wire
 		(pts
@@ -8361,16 +8207,6 @@
 			(type default)
 		)
 		(uuid "f4b17b35-1a29-4749-ba34-b3c396151763")
-	)
-	(wire
-		(pts
-			(xy 53.34 121.92) (xy 67.31 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f53e8dbc-dfb4-4dc6-bb30-b36a68570d6b")
 	)
 	(wire
 		(pts
@@ -9850,77 +9686,6 @@
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "#PWR114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 48.26 124.46 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72cbc961-7e4b-4f8e-ac58-47fadf026aba")
-		(property "Reference" "J10"
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADC_IN"
-			(at 48.26 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 48.26 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2456c00c-40cb-440f-b6a9-066f184ed1ce")
-		)
-		(pin "2"
-			(uuid "e74fd7e6-7e5d-4d77-98b2-445b9a5ff6e8")
-		)
-		(pin "3"
-			(uuid "396436d6-0725-489f-a776-d195bd20a128")
-		)
-		(instances
-			(project ""
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -12007,77 +11772,6 @@
 			(project ""
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 48.26 110.49 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffb6abe6-fcd1-438a-8c31-bcf79f70b9e4")
-		(property "Reference" "J9"
-			(at 48.26 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADC_IN"
-			(at 48.26 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 48.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "42c62a10-9f53-4767-8859-59c4b1a97166")
-		)
-		(pin "2"
-			(uuid "6522503e-fc00-413b-8a1f-a0d70223dcca")
-		)
-		(pin "3"
-			(uuid "217c5592-9a1f-42bb-b1ec-962d0f598ce2")
-		)
-		(instances
-			(project "M302N"
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "J9")
 					(unit 1)
 				)
 			)
