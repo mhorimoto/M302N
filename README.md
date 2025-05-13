@@ -26,4 +26,34 @@ M302Kを改良して小型化、専用化とノーコード化を目指した新
 * J11 止め穴を0.1mm大きくする
 * SW1はXH-B2Bに変更 (Done 2025/05/12)
 * J1へCPUから5Vが逆流しないように1S4を追加 (Done 2025/05/12)
-* 
+*
+
+### 3.00
+* W5500をオンボード実装する。
+* PoE(PD)デバイスを実装する準備。
+
+## PoEを検討する
+
+[技術情報](https://www.monolithicpower.com/jp/learning/resources/how-to-optimize-a-power-over-ethernet-pd-design?srsltid=AfmBOoqbZEuF42aN06ACb63LRKW16xLEzh97txKA_eJsGOTwgDsu3x3L)
+
+目指すは、802.3af class1 (4W)  
+いくつかのデバイス候補を掲げる。
+
+### Analog Devices
+* LT4321 (Diode Bridge Controller)
+* LT4295 (PD Controller)
+* LTC4257: IEEE 802.3af PDインターフェースコントローラ。
+* LT3798: 絶縁型フライバックコントローラ（DC-DCコンバータ用）。
+
+### Texas Instruments:
+* TPS23753A: 低消費電力、小型パッケージのPDコントローラ。
+* TPS23754: 統合MOSFET、高効率のPDコントローラ。
+* TPS23756: 同期整流コントローラ内蔵のPDコントローラ。
+* TPS2378: 高集積、低スタンバイ電力のPDコントローラ。
+* UCC2897A: 高効率フライバックコントローラ（DC-DCコンバータ用）。
+
+### Monolithic Power Systems (MPS):
+* MP8001/MP8001A: 15WまでのPoE PDコントローラ。
+* MP8007/MP8007H: 13Wまでのフライバック/降圧コンバータ内蔵PDコントローラ。
+### ON Semiconductor:
+* NCP1095/NCP1096: 低電力PDコントローラ。
