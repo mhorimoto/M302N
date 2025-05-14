@@ -35,6 +35,7 @@ M302Kを改良して小型化、専用化とノーコード化を目指した新
 ## PoEを検討する
 
 [技術情報](https://www.monolithicpower.com/jp/learning/resources/how-to-optimize-a-power-over-ethernet-pd-design?srsltid=AfmBOoqbZEuF42aN06ACb63LRKW16xLEzh97txKA_eJsGOTwgDsu3x3L)
+[参考資料](https://www.kicad-de-kiban.net/archives/MKR_PoE_eth_shield1.html)
 
 目指すは、802.3af class1 (4W)  
 いくつかのデバイス候補を掲げる。
@@ -57,3 +58,8 @@ M302Kを改良して小型化、専用化とノーコード化を目指した新
 * MP8007/MP8007H: 13Wまでのフライバック/降圧コンバータ内蔵PDコントローラ。
 ### ON Semiconductor:
 * NCP1095/NCP1096: 低電力PDコントローラ。
+
+### M5Stackなどの参考回路から
+* HBJ-6308ANLF  RJ45 for PoE これだけでDC出力が得られる？詳細調査中。
+* WC-PD06H050A  PDコントローラーモジュール
+  
