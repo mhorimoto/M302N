@@ -6169,6 +6169,10 @@
 		(uuid "9e02a8f7-9c50-4c73-81d7-1e881fabfd6a")
 	)
 	(no_connect
+		(at 123.19 78.74)
+		(uuid "9e3412ae-f3ab-4f9c-a450-7516d44e0a0d")
+	)
+	(no_connect
 		(at 234.95 29.21)
 		(uuid "9eed801a-008e-497d-a5a0-b4c858a32741")
 	)
@@ -8794,7 +8798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal"
 			(at 48.26 57.785 0)
 			(effects
 				(font
@@ -9561,7 +9565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
 			(at 207.645 78.74 0)
 			(effects
 				(font

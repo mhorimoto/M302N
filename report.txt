@@ -1,0 +1,59 @@
+情報: シンボル 'C1:Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm' を処理中です。
+情報: シンボル 'U2:Package_TO_SOT_SMD:TO-252-3_TabPin2' を処理中です。
+情報: シンボル 'U1:HOLLY2:W5500LARGE' を処理中です。
+情報: シンボル 'R3:Varistor:RV_Disc_D12mm_W3.9mm_P7.5mm' を処理中です。
+情報: シンボル 'R2:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal' を処理中です。
+情報: シンボル 'R1:Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal' を処理中です。
+情報: シンボル 'J19:Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical' を処理中です。
+情報: シンボル 'J18:Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical' を処理中です。
+情報: シンボル 'J14:Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical' を処理中です。
+情報: シンボル 'J13:Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical' を処理中です。
+情報: シンボル 'J12:Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal' を処理中です。
+情報: シンボル 'J11:HOLLY2:RJ45_Neltron_7810-8P8C' を処理中です。
+情報: シンボル 'J7:Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal' を処理中です。
+情報: シンボル 'J6:Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical' を処理中です。
+情報: シンボル 'J5:Connector_JST:JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal' を処理中です。
+情報: シンボル 'J4:Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal' を処理中です。
+情報: シンボル 'J2:Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical' を処理中です。
+情報: シンボル 'J3:Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical' を処理中です。
+情報: シンボル 'A1:Module:Arduino_Nano' を処理中です。
+情報: シンボル 'C2:Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm' を処理中です。
+情報: シンボル 'C3:Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm' を処理中です。
+情報: シンボル 'C4:Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm' を処理中です。
+情報: シンボル 'C5:Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm' を処理中です。
+情報: シンボル 'C6:Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm' を処理中です。
+情報: シンボル 'D1:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal' を処理中です。
+情報: シンボル 'D2:LED_THT:LED_D3.0mm' を処理中です。
+情報: シンボル 'D3:Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal' を処理中です。
+情報: シンボル 'D4:Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal' を処理中です。
+情報: シンボル 'F1:Fuse:Fuse_BelFuse_0ZRE0033FF_L11.4mm_W3.8mm' を処理中です。
+情報: シンボル 'FL1:HOLLY2:DSS1' を処理中です。
+情報: シンボル 'J1:Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal' を処理中です。
+警告: ビアが不明なネット () に接続されています。
+警告: ビアが不明なネット () に接続されています。
+警告: ビアが不明なネット () に接続されています。
+警告: ビアが不明なネット () に接続されています。
+警告: ビアが不明なネット () に接続されています。
+警告: ビアが不明なネット () に接続されています。
+警告: ビアが不明なネット () に接続されています。
+エラー: U1 パッド J2-8 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J2-7 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J2-5 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J2-4 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J1-10 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J1-8 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J1-1 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J2-2 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J2-1 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J1-7 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J1-9 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J1-6 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J2-6 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J2-3 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J1-5 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J1-3 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J1-4 が HOLLY2:W5500LARGE に見つかりません。
+エラー: U1 パッド J1-2 が HOLLY2:W5500LARGE に見つかりません。
+
+
+情報: 合計警告数: 7、エラー数: 18.
