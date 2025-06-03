@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "2025-06-02_10-47-13")(type "KiCad")(uri "${KIPRJMOD}/2025-06-02_10-47-13.kicad_sym")(options "")(descr ""))
+  (lib (name "M302N-symlib")(type "KiCad")(uri "${KIPRJMOD}/M302N-symlib.kicad_sym")(options "")(descr ""))
 )

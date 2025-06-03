@@ -304,189 +304,6 @@
 				)
 			)
 		)
-		(symbol "2025-06-02_10-47-13:BP5293-50"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "BP5293-50"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SIP03_BP5293_17X7P2_ROM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "BP5293-50"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BP5293-50"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SIP03_BP5293_17X7P2_ROM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BP5293-50_0_1"
-				(polyline
-					(pts
-						(xy 7.62 -7.62) (xy 33.02 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -7.62) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Barrel_Jack_Switch_Pin3Ring"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -4470,6 +4287,189 @@
 				)
 			)
 		)
+		(symbol "M302N-symlib:BP5293-50"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "BP5293-50"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "SIP03_BP5293_17X7P2_ROM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "BP5293-50"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BP5293-50"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SIP03_BP5293_17X7P2_ROM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BP5293-50_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 33.02 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -7.62) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_Module:Arduino_Nano_v3.x"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5270,12 +5270,13 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "U1"
+				(at 1.7298 -0.635 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "W5500"
@@ -5954,12 +5955,6 @@
 		(uuid "52432324-4245-42dc-97dd-a560d7fd11f2")
 	)
 	(junction
-		(at 104.14 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a31fb56-d164-46bc-ab6c-70ade9a33ea5")
-	)
-	(junction
 		(at 133.35 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5990,6 +5985,18 @@
 		(uuid "811893af-ec3b-43b2-a8cb-8a2aa9d5588d")
 	)
 	(junction
+		(at 111.76 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "812080d1-7a61-4d0a-b9d8-c64949ef94c1")
+	)
+	(junction
+		(at 111.76 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86826afe-df0b-45f0-9518-774b943f4ed5")
+	)
+	(junction
 		(at 148.59 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6014,12 +6021,6 @@
 		(uuid "979f144f-8287-4580-8672-4f2ae4cca498")
 	)
 	(junction
-		(at 114.3 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d6730d7-ce9d-4ab6-af87-03d860c9c4eb")
-	)
-	(junction
 		(at 260.35 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6038,22 +6039,10 @@
 		(uuid "bb6485fb-50d9-4fe9-ad0d-57e6a7291e81")
 	)
 	(junction
-		(at 114.3 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf86a9b6-9fca-49e6-a3a4-f82e6a14c68b")
-	)
-	(junction
 		(at 259.08 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea61d72c-de8c-4ae4-b7c8-606ec776304b")
-	)
-	(junction
-		(at 104.14 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eddeff2b-9541-45a5-8ba3-8260289ba5c7")
 	)
 	(junction
 		(at 58.42 161.29)
@@ -6207,7 +6196,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 147.32) (xy 60.96 147.32)
+			(xy 50.8 147.32) (xy 68.58 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6317,7 +6306,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 147.32) (xy 104.14 147.32)
+			(xy 109.22 147.32) (xy 111.76 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6467,16 +6456,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 161.29) (xy 124.46 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29a61c11-ad47-44ca-920e-bbd936a5f83c")
-	)
-	(wire
-		(pts
 			(xy 224.79 140.97) (xy 237.49 140.97)
 		)
 		(stroke
@@ -6487,23 +6466,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 149.86) (xy 60.96 149.86)
+			(xy 58.42 149.86) (xy 68.58 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2da57b49-ed9d-4e5e-810a-bc238da6462c")
-	)
-	(wire
-		(pts
-			(xy 114.3 156.21) (xy 114.3 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f5aa9ea-2397-4168-bc9e-40f71547ba58")
 	)
 	(wire
 		(pts
@@ -6644,16 +6613,6 @@
 			(type default)
 		)
 		(uuid "3b0782f3-c0c8-4396-ae57-3ccd5d697e17")
-	)
-	(wire
-		(pts
-			(xy 104.14 161.29) (xy 114.3 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ff3eb34-b2b3-4f67-976d-46840b46f7b6")
 	)
 	(wire
 		(pts
@@ -6927,7 +6886,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 147.32) (xy 104.14 151.13)
+			(xy 111.76 147.32) (xy 111.76 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7217,16 +7176,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 147.32) (xy 104.14 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9decaa7d-3638-4b91-a67f-db26f46e1ca0")
-	)
-	(wire
-		(pts
 			(xy 240.03 22.86) (xy 240.03 29.21)
 		)
 		(stroke
@@ -7307,7 +7256,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 161.29) (xy 104.14 161.29)
+			(xy 58.42 161.29) (xy 111.76 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7417,16 +7366,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 147.32) (xy 114.3 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2748d3f-6239-403b-8d93-5c9a4728fa70")
-	)
-	(wire
-		(pts
 			(xy 257.81 115.57) (xy 266.7 115.57)
 		)
 		(stroke
@@ -7474,16 +7413,6 @@
 			(type default)
 		)
 		(uuid "b4ab3ef0-b9fa-4606-ba82-3279c7aa76e5")
-	)
-	(wire
-		(pts
-			(xy 114.3 147.32) (xy 124.46 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4b259f8-29f7-4215-8038-0d78249d7133")
 	)
 	(wire
 		(pts
@@ -7547,7 +7476,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 156.21) (xy 104.14 161.29)
+			(xy 111.76 156.21) (xy 111.76 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7584,6 +7513,16 @@
 			(type default)
 		)
 		(uuid "ba84bb2c-b673-4732-876e-841904b9f85b")
+	)
+	(wire
+		(pts
+			(xy 111.76 161.29) (xy 124.46 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfcc357d-4fed-468f-8685-dd43be97c145")
 	)
 	(wire
 		(pts
@@ -7784,6 +7723,16 @@
 			(type default)
 		)
 		(uuid "d7e5306a-0d0c-4def-8141-24738a99f9a8")
+	)
+	(wire
+		(pts
+			(xy 111.76 147.32) (xy 124.46 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8299c43-5bc4-4577-943f-a0e172efde71")
 	)
 	(wire
 		(pts
@@ -8834,8 +8783,8 @@
 		)
 	)
 	(symbol
-		(lib_id "2025-06-02_10-47-13:BP5293-50")
-		(at 101.6 147.32 0)
+		(lib_id "M302N-symlib:BP5293-50")
+		(at 109.22 147.32 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8845,7 +8794,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cb37599-ac03-4066-864b-da73d805d8a6")
 		(property "Reference" "U2"
-			(at 81.28 137.5461 0)
+			(at 88.9 137.5461 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8853,15 +8802,15 @@
 			)
 		)
 		(property "Value" "BP5293-50"
-			(at 81.28 140.379 0)
+			(at 88.9 140.379 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "SIP03_BP5293_17X7P2_ROM"
-			(at 101.6 147.32 0)
+		(property "Footprint" "footprints:SIP03_BP5293_17X7P2_ROM"
+			(at 109.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8871,7 +8820,7 @@
 			)
 		)
 		(property "Datasheet" "BP5293-50"
-			(at 101.6 147.32 0)
+			(at 109.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8881,7 +8830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 147.32 0)
+			(at 109.22 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9335,7 +9284,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 104.14 153.67 0)
+		(at 111.76 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9343,7 +9292,7 @@
 		(dnp no)
 		(uuid "60677ab3-e30d-4d1c-a18f-74640373a63c")
 		(property "Reference" "C2"
-			(at 106.4641 152.4641 0)
+			(at 114.0841 152.4641 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9352,7 +9301,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 106.4641 154.8884 0)
+			(at 114.0841 154.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9361,7 +9310,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 104.14 153.67 0)
+			(at 111.76 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9370,7 +9319,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 153.67 0)
+			(at 111.76 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9379,7 +9328,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 104.14 153.67 0)
+			(at 111.76 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10276,76 +10225,6 @@
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "#PWR108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 114.3 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bd7ecb0-22fe-4d72-9810-e6bb07972a04")
-		(property "Reference" "C6"
-			(at 116.84 152.4062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 116.84 154.9462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 114.3 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 114.3 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b9054147-f2a2-40a9-a79e-c5a5c33431e1")
-		)
-		(pin "1"
-			(uuid "0259a5c2-0025-4616-ab02-adeb3bc0d61a")
-		)
-		(instances
-			(project "M302N"
-				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-					(reference "C6")
 					(unit 1)
 				)
 			)
