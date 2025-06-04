@@ -1199,7 +1199,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C2"
-			(at 4.8006 1.9558 360)
+			(at 4.8006 1.9558 0)
 			(layer "F.SilkS")
 			(uuid "0466b6cb-c19b-4ad6-acd4-d6f4d9bbf204")
 			(effects
@@ -1210,7 +1210,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0.9906 1.9558 360)
+			(at 0.9906 1.9558 0)
 			(layer "F.SilkS")
 			(uuid "f558f4f2-49ca-4d91-b55b-b3ae976d7961")
 			(effects
@@ -1405,7 +1405,7 @@
 			(uuid "e52e37a9-9aa8-4627-85e0-99602abad696")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a6b85f30-c91e-4f98-8fc9-b70f7971e05f")
@@ -6186,6 +6186,7 @@
 		(property "Value" "RESET"
 			(at 1.25 4.6 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "2ef1a8d3-fb4a-4453-8c5f-a4fe798faee5")
 			(effects
 				(font
@@ -6938,7 +6939,7 @@
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J6"
-			(at 2.5 -3.55 90)
+			(at 8.985 1.5 180)
 			(layer "F.SilkS")
 			(uuid "ed5db669-ab88-4f22-be51-febebce7ae0d")
 			(effects
@@ -6949,8 +6950,8 @@
 			)
 		)
 		(property "Value" "ADC_IN"
-			(at 2.5 4.6 90)
-			(layer "F.Fab")
+			(at -4.425 0.3 180)
+			(layer "F.SilkS")
 			(uuid "f1fff607-b9a3-46b4-a672-6776ef60e297")
 			(effects
 				(font
@@ -7422,7 +7423,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
 		(property "Reference" "C5"
-			(at 0.254 -2.099 360)
+			(at 0.254 -2.099 0)
 			(layer "F.SilkS")
 			(uuid "9b7bbe28-aeb3-4c0e-a623-2ec826e51aad")
 			(effects
@@ -7433,7 +7434,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 4.699 -2.099 360)
+			(at 4.699 -2.099 0)
 			(layer "F.SilkS")
 			(uuid "e4b9ce85-9907-4368-9e75-decd59feaa8a")
 			(effects
@@ -7628,7 +7629,7 @@
 			(uuid "31924c8b-4469-4a50-8344-4e8357fc114d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8ab9283b-4439-4563-b20f-0f1a12565691")
@@ -10294,7 +10295,7 @@
 		(descr "C, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=11mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 2.00mm diameter 5mm height 11mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at -4 0.7 360)
+			(at -4 0.7 0)
 			(layer "F.SilkS")
 			(uuid "a5586984-2ac3-4066-87b3-b1aa0c409980")
 			(effects
@@ -10305,7 +10306,7 @@
 			)
 		)
 		(property "Value" "100uF/25V"
-			(at -2.4892 -1.6764 0)
+			(at -2.402 2.107 0)
 			(layer "F.SilkS")
 			(uuid "f1901342-1537-4df4-9e7f-4fe5ac00b1e2")
 			(effects
@@ -11866,7 +11867,7 @@
 		)
 	)
 	(gr_text "RESET"
-		(at 101.854 110.871 0)
+		(at 107.2 109.75 0)
 		(layer "F.SilkS")
 		(uuid "e6f8fe4f-7d03-40aa-875c-58b4ff171534")
 		(effects
