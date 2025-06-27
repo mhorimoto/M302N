@@ -61,7 +61,9 @@
       ],
       "drc_exclusions": [
         "lib_footprint_mismatch|106299000|81788000|a6f08074-1801-458c-83aa-118216db43f5|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|116035000|67032500|78fcc3b2-7a63-4cbc-bbd3-3a313c6ad79c|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|120204000|78452000|16e6f274-09b0-4110-9bca-006882e30d44|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|121560000|77076200|34f99b86-392c-41e2-b794-7dfb58b64150|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|132867000|76083000|38cac582-65ab-4833-94ff-a8ff8ccc8180|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|135661000|77429200|0815dce2-34b9-46ba-9de5-8533cbfc3cb4|00000000-0000-0000-0000-000000000000",
         "pth_inside_courtyard|159054800|100310000|0f95b55a-e1bb-4cb4-a30f-f58b548b8f8d|4aba512d-c65e-4430-8b29-49acd77f802f",
@@ -506,7 +508,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "GOUT100/",
+      "plot": "./GOUT200",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
