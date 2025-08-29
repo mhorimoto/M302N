@@ -19,6 +19,7 @@ fp-info-cache
 M302N-backups/*
 *.FCBak
 3DPRN/*.FCStd?
+.vscode/
 
 # Netlist files (exported from Eeschema)
 *.net
