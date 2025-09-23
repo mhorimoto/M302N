@@ -6543,6 +6543,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 38.1) (xy 37.465 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6a09f0-f130-42eb-b7f2-b931acc660e4")
+	)
+	(wire
+		(pts
 			(xy 58.42 149.86) (xy 68.58 149.86)
 		)
 		(stroke
@@ -7093,6 +7103,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 35.56) (xy 37.465 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f06f8f-8537-4220-b210-8292d73e0a32")
+	)
+	(wire
+		(pts
 			(xy 259.08 95.25) (xy 208.28 95.25)
 		)
 		(stroke
@@ -7160,6 +7180,16 @@
 			(type default)
 		)
 		(uuid "8f1dffa1-b5b1-4f06-8527-6367d3d6c6b2")
+	)
+	(wire
+		(pts
+			(xy 27.94 43.18) (xy 37.465 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b3ed5c-39fc-4289-9c0b-0e23ba61e11e")
 	)
 	(wire
 		(pts
@@ -7540,6 +7570,16 @@
 			(type default)
 		)
 		(uuid "b5714e02-a552-46ba-954d-19d2771c81b3")
+	)
+	(wire
+		(pts
+			(xy 27.94 40.64) (xy 37.465 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59554c1-5e4d-4605-a1bf-8d7674bb5ade")
 	)
 	(wire
 		(pts
@@ -8161,6 +8201,50 @@
 		)
 		(uuid "f974f73f-e708-451e-8cc0-6823550807c0")
 	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 27.94 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30d4c89a-4545-4421-94f9-f18d599e2a28")
+	)
+	(hierarchical_label "SCL"
+		(shape output)
+		(at 27.94 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37d5c276-b225-43bc-8ad9-23712a55f180")
+	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 27.94 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb84630a-a1d7-4050-85df-f4595ab516f0")
+	)
+	(hierarchical_label "SDA"
+		(shape output)
+		(at 27.94 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6758c5b-9a53-45d7-b968-9331b0b77be0")
+	)
 	(symbol
 		(lib_id "Device:LED")
 		(at 111.76 92.075 90)
@@ -8225,6 +8309,12 @@
 		(instances
 			(project ""
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "D2")
 					(unit 1)
 				)
@@ -8308,6 +8398,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "J13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8371,6 +8467,12 @@
 		(instances
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "J7")
 					(unit 1)
 				)
@@ -8441,6 +8543,12 @@
 		(instances
 			(project ""
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "D1")
 					(unit 1)
 				)
@@ -8522,6 +8630,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "J16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8591,6 +8705,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "F1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8652,6 +8772,12 @@
 		(instances
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "#PWR107")
+					(unit 1)
+				)
+			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "#PWR107")
 					(unit 1)
 				)
@@ -8718,6 +8844,86 @@
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
 					(reference "#PWR2")
+					(unit 1)
+				)
+			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "#PWR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 42.545 40.64 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "238379fc-6017-4b53-98dc-31d80ceb7361")
+		(property "Reference" "J8"
+			(at 41.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XH-S4S"
+			(at 33.655 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 42.545 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 42.545 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 42.545 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63289139-124e-4788-89d3-d61a785f0153")
+		)
+		(pin "4"
+			(uuid "6149d248-f6f3-4d1a-8633-17b44bfda64f")
+		)
+		(pin "3"
+			(uuid "43275198-b268-4587-8717-6f4d0ba95704")
+		)
+		(pin "1"
+			(uuid "b86c1c55-fce0-404b-95d7-92f0a8aa810b")
+		)
+		(instances
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -8792,6 +8998,12 @@
 					(unit 1)
 				)
 			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "J5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8853,6 +9065,12 @@
 		(instances
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "#PWR115")
+					(unit 1)
+				)
+			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "#PWR115")
 					(unit 1)
 				)
@@ -8931,6 +9149,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8996,6 +9220,12 @@
 		(instances
 			(project ""
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "R3")
 					(unit 1)
 				)
@@ -9066,6 +9296,12 @@
 					(unit 1)
 				)
 			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "#PWR106")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9127,6 +9363,12 @@
 		(instances
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "#PWR101")
+					(unit 1)
+				)
+			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "#PWR101")
 					(unit 1)
 				)
@@ -9196,6 +9438,12 @@
 		(instances
 			(project ""
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "C1")
 					(unit 1)
 				)
@@ -9287,6 +9535,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "J17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9353,6 +9607,12 @@
 		(instances
 			(project ""
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "SW1")
 					(unit 1)
 				)
@@ -9426,6 +9686,12 @@
 					(unit 1)
 				)
 			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9488,6 +9754,12 @@
 		(instances
 			(project "Arduino_Nano"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+			(project "Arduino_Nano"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "#PWR0103")
 					(unit 1)
 				)
@@ -9558,6 +9830,12 @@
 		(instances
 			(project ""
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "R2")
 					(unit 1)
 				)
@@ -9636,6 +9914,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9697,6 +9981,12 @@
 		(instances
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "#PWR114")
+					(unit 1)
+				)
+			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "#PWR114")
 					(unit 1)
 				)
@@ -9766,6 +10056,12 @@
 		(instances
 			(project ""
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "J12")
 					(unit 1)
 				)
@@ -9858,6 +10154,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9923,6 +10225,12 @@
 		(instances
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "R1")
 					(unit 1)
 				)
@@ -9993,6 +10301,12 @@
 		(instances
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "FL1")
+					(unit 1)
+				)
+			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "FL1")
 					(unit 1)
 				)
@@ -10072,6 +10386,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "J19")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10138,6 +10458,12 @@
 		(instances
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "C5")
 					(unit 1)
 				)
@@ -10240,6 +10566,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10305,6 +10637,86 @@
 					(unit 1)
 				)
 			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "#PWR108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 41.91 57.15 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a0c2018-5762-4297-9eae-59678c13bc11")
+		(property "Reference" "J9"
+			(at 41.275 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 35.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 41.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9de8b107-cb9b-4a84-8267-77941e9bdc6d")
+		)
+		(pin "4"
+			(uuid "27c4dcf2-c3fe-4d04-a317-f824ec0de376")
+		)
+		(pin "3"
+			(uuid "858e4aa6-d0b2-4304-b789-5e1fb165baff")
+		)
+		(pin "1"
+			(uuid "4e6b6b02-0201-47eb-af76-7fa47dc84dc7")
+		)
+		(instances
+			(project "M302ULTRA"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "J9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10367,6 +10779,12 @@
 		(instances
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "#PWR113")
+					(unit 1)
+				)
+			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "#PWR113")
 					(unit 1)
 				)
@@ -10437,6 +10855,12 @@
 					(unit 1)
 				)
 			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "#PWR109")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10498,6 +10922,12 @@
 		(instances
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "#PWR3")
+					(unit 1)
+				)
+			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "#PWR3")
 					(unit 1)
 				)
@@ -10589,6 +11019,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "J11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10651,6 +11087,12 @@
 		(instances
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "#PWR102")
+					(unit 1)
+				)
+			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "#PWR102")
 					(unit 1)
 				)
@@ -10773,6 +11215,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10848,6 +11296,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "J18")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10918,6 +11372,12 @@
 		(instances
 			(project ""
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "J4")
 					(unit 1)
 				)
@@ -10999,6 +11459,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "J15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11061,6 +11527,12 @@
 		(instances
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "#PWR1")
+					(unit 1)
+				)
+			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "#PWR1")
 					(unit 1)
 				)
@@ -11135,6 +11607,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11196,6 +11674,12 @@
 		(instances
 			(project "Arduino_Nano"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+			(project "Arduino_Nano"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "#PWR0104")
 					(unit 1)
 				)
@@ -11264,6 +11748,12 @@
 		(instances
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "D4")
 					(unit 1)
 				)
@@ -11339,6 +11829,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11406,6 +11902,12 @@
 		(instances
 			(project "M302N"
 				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+			(project "M302N"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
 					(reference "J6")
 					(unit 1)
 				)
@@ -11563,6 +12065,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "A1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11642,12 +12150,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/e8b28091-5f2a-4e72-8ff5-5457050b73a8"
+					(reference "J14")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )

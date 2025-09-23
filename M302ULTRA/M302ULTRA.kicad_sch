@@ -1,0 +1,55 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d9d02f3f-e7de-4839-b3af-9017ce7335aa")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 79.375 43.18)
+		(size 62.23 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e8b28091-5f2a-4e72-8ff5-5457050b73a8")
+		(property "Sheetname" "M302N_CPU"
+			(at 79.375 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../M302N.kicad_sch"
+			(at 115.57 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "M302ULTRA"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
