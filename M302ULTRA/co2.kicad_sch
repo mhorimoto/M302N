@@ -1,0 +1,408 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "94640fce-53c0-4056-b660-f17237b0597d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "M302N-symlib:IMG_CA0012"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "IMG-CA0012"
+				(at 0.254 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.murata.com/ja-jp/products/sensor/co2/overview/lineup/img-agri"
+				(at 0 -17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IMG_CA0012_1_1"
+				(rectangle
+					(start -12.7 0)
+					(end 13.97 -15.24)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "Unused"
+					(at -3.048 -1.27 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "Signal Output(+0~5V)"
+					(at -3.048 -3.81 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "Signal Ground(-)"
+					(at -3.048 -6.35 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "Input Power(Ground)"
+					(at -2.794 -8.89 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "Unused"
+					(at -2.794 -11.684 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "Input Power(+DC12V/50mA)"
+					(at -2.794 -13.97 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 16.51 -1.27 180)
+					(length 2.54)
+					(name "I_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -3.81 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -6.35 180)
+					(length 2.54)
+					(name "AG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -8.89 180)
+					(length 2.54)
+					(name "FG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 16.51 -11.43 180)
+					(length 2.54)
+					(name "AC-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -13.97 180)
+					(length 2.54)
+					(name "ACDC+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 132.08 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd04e4f2-2d28-4b45-991a-f27e3f401024")
+	)
+	(wire
+		(pts
+			(xy 132.08 88.9) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296df8e4-f931-43d0-84fa-9d138ba294f8")
+	)
+	(wire
+		(pts
+			(xy 145.415 88.9) (xy 132.08 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1695c35-454a-41f2-a73a-c560c074327f")
+	)
+	(wire
+		(pts
+			(xy 114.935 86.36) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5c93ddb-eb53-4174-a510-19e1dd514a63")
+	)
+	(wire
+		(pts
+			(xy 132.08 86.36) (xy 145.415 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b66982c3-5f33-4700-8234-aebf4e17ff4b")
+	)
+	(wire
+		(pts
+			(xy 114.935 91.44) (xy 145.415 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d86f03b1-cb96-4548-8a8b-61e4a9c933dc")
+	)
+	(wire
+		(pts
+			(xy 114.935 81.28) (xy 145.415 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcec6674-0417-459c-a77b-85379650ebde")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 114.935 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94a64f98-49b9-4b89-9d6c-2d25fdb5d306")
+	)
+	(hierarchical_label "+12V"
+		(shape input)
+		(at 114.935 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c10e144-1367-42a6-a248-384ce2d25cf8")
+	)
+	(hierarchical_label "OUT"
+		(shape output)
+		(at 114.935 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e98e0f5e-a4ae-4a77-9686-6f01393d89a4")
+	)
+	(symbol
+		(lib_id "M302N-symlib:IMG_CA0012")
+		(at 161.925 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00236cb7-34ac-4e22-9881-dd277e009277")
+		(property "Reference" "U501"
+			(at 175.26 86.4178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "IMG-CA0012"
+			(at 175.26 88.8421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.925 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/ja-jp/products/sensor/co2/overview/lineup/img-agri"
+			(at 161.925 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.925 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "bbb33384-22d5-4882-aac4-9cf7bff3f497")
+		)
+		(pin "2"
+			(uuid "c3648408-1389-48a7-a2b6-7586c12f894a")
+		)
+		(pin "3"
+			(uuid "24ee8c81-9466-4411-a8db-f6616a6ef600")
+		)
+		(pin "5"
+			(uuid "0e76f104-3e37-4494-9ed0-7fddb2685e16")
+		)
+		(pin "1"
+			(uuid "aa2d6084-f9f6-4db3-8d4b-dc09fc5ca23d")
+		)
+		(pin "4"
+			(uuid "0e2c0827-386b-46d4-834e-b283cce46259")
+		)
+		(instances
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/42e342a5-9952-4b6d-85fc-4f31980583b8"
+					(reference "U501")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -616,6 +616,22 @@
     [
       "e8b28091-5f2a-4e72-8ff5-5457050b73a8",
       "M302N_CPU"
+    ],
+    [
+      "6875f7dd-7c78-439a-af68-88a9bcc2a8a8",
+      "Temperature and Humid"
+    ],
+    [
+      "0945df5e-04df-4246-90b3-33f4e475b7cb",
+      "Light Quantum"
+    ],
+    [
+      "42e342a5-9952-4b6d-85fc-4f31980583b8",
+      "CO2"
+    ],
+    [
+      "1109d41c-1cd9-4607-8e00-768ba8f03d9b",
+      "Soil Water"
     ]
   ],
   "text_variables": {}

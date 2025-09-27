@@ -1,0 +1,327 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0f66956b-f490-47d7-a6db-fe149282614a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "M302N-symlib:SLT5006"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "U"
+				(at -2.032 0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SLT5006"
+				(at -0.254 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.murata.com/ja-jp/products/sensor/soil/design-development/lineup"
+				(at -0.254 -32.258 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SLT5006_0_1"
+				(rectangle
+					(start -6.35 -3.81)
+					(end 6.35 -26.67)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+			)
+			(symbol "SLT5006_1_1"
+				(pin power_in line
+					(at 8.89 -5.08 180)
+					(length 2.54)
+					(name "Vdd_(RED)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -7.62 180)
+					(length 2.54)
+					(name "GND_(BLK)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -10.16 180)
+					(length 2.54)
+					(name "EN_(WHT)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 -12.7 180)
+					(length 2.54)
+					(name "TxD_(BLU)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -15.24 180)
+					(length 2.54)
+					(name "RxD_(YLW)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 8.89 -17.78 180)
+					(length 2.54)
+					(name "NC_(GRN)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 8.89 -20.32 180)
+					(length 2.54)
+					(name "NC_(ORG)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -22.86 180)
+					(length 2.54)
+					(name "GND_(GRY)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -25.4 180)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "M302N-symlib:SLT5006")
+		(at 151.765 62.23 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "0b564c80-b2c2-4147-9bd8-793836f3d458")
+		(property "Reference" "U601"
+			(at 158.75 78.6822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SLT5006"
+			(at 158.75 76.2579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.765 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/ja-jp/products/sensor/soil/design-development/lineup"
+			(at 152.019 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.765 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "f4ef11e4-76bc-4c3f-b202-43cf80e3b21a")
+		)
+		(pin "6"
+			(uuid "4728b738-fef4-42c8-a663-fa55cab66383")
+		)
+		(pin "7"
+			(uuid "0c2523bc-f463-400c-b856-bf46d8004609")
+		)
+		(pin "1"
+			(uuid "8615f726-1ed8-455d-80ec-fbb1b0957081")
+		)
+		(pin "4"
+			(uuid "14ec6261-7fa5-40f8-a054-45030293137e")
+		)
+		(pin "3"
+			(uuid "af3e8ea0-a998-48e3-841c-4039c805841f")
+		)
+		(pin "8"
+			(uuid "8dcb1e09-77b9-4d3a-a000-3769c5629452")
+		)
+		(pin ""
+			(uuid "f994763d-d80a-4bd0-83fc-627bd5c398d6")
+		)
+		(pin "2"
+			(uuid "9fc25ca0-a018-4ac7-8acb-9ad28676497c")
+		)
+		(instances
+			(project ""
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa/1109d41c-1cd9-4607-8e00-768ba8f03d9b"
+					(reference "U601")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
