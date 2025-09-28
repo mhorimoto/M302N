@@ -1598,7 +1598,7 @@
 	)
 	(text "CO2 UNIT\nIMG-CA0012"
 		(exclude_from_sim no)
-		(at 162.56 137.795 0)
+		(at 163.195 141.605 0)
 		(effects
 			(font
 				(size 3 3)
@@ -1608,7 +1608,7 @@
 	)
 	(text "SOIL WATER UNIT\nSLT-5006"
 		(exclude_from_sim no)
-		(at 203.2 137.795 0)
+		(at 202.565 141.605 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -1800,6 +1800,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 113.03) (xy 186.69 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a9f28c-1196-4842-ab05-b6727073c286")
+	)
+	(wire
+		(pts
 			(xy 84.455 64.135) (xy 109.22 64.135)
 		)
 		(stroke
@@ -1907,6 +1917,16 @@
 			(type default)
 		)
 		(uuid "79163764-6d24-4527-887f-bbde080e3fc4")
+	)
+	(wire
+		(pts
+			(xy 191.77 113.03) (xy 191.77 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a167f65-8501-4bb9-8617-af1d2efffaaa")
 	)
 	(wire
 		(pts
@@ -2110,6 +2130,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 113.03) (xy 189.23 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d50484-94c1-49e7-91fb-59544f71dbf0")
+	)
+	(wire
+		(pts
 			(xy 86.995 93.345) (xy 86.995 61.595)
 		)
 		(stroke
@@ -2177,6 +2207,16 @@
 			(type default)
 		)
 		(uuid "d933ad0f-bce5-4b7e-8f41-1eb1bb2827b1")
+	)
+	(wire
+		(pts
+			(xy 194.31 113.03) (xy 194.31 127.635)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e29254a1-1d50-40e0-90bf-01bb214b79a4")
 	)
 	(wire
 		(pts
@@ -2669,16 +2709,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "3bab00b2-3542-42a4-9e49-d8329f7f8bdb")
+			(uuid "3bab00b2-3542-42a4-9e49-d8329f7f8bdc")
 		)
 		(pin "1"
-			(uuid "722cbf0f-ca8d-4cfc-9978-a20aafc93f43")
+			(uuid "722cbf0f-ca8d-4cfc-9978-a20aafc93f44")
 		)
 		(pin "2"
-			(uuid "597fe709-9080-4c14-aee5-cd522253eb5a")
+			(uuid "597fe709-9080-4c14-aee5-cd522253eb5b")
 		)
 		(pin "4"
-			(uuid "e3d87c43-834d-4f4f-82de-8ef0f6944233")
+			(uuid "e3d87c43-834d-4f4f-82de-8ef0f6944234")
 		)
 		(instances
 			(project ""
@@ -2887,16 +2927,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "2b86262c-6613-4651-81fc-eedec56c6870")
+			(uuid "2b86262c-6613-4651-81fc-eedec56c6871")
 		)
 		(pin "3"
-			(uuid "a4a8d644-a8f2-4398-8241-9f4e4b4b598e")
+			(uuid "a4a8d644-a8f2-4398-8241-9f4e4b4b598f")
 		)
 		(pin "1"
-			(uuid "e73575dd-2aea-46f9-803d-553927b79e82")
+			(uuid "e73575dd-2aea-46f9-803d-553927b79e83")
 		)
 		(pin "4"
-			(uuid "f3295f67-037d-4a07-88d1-6144e07ff07c")
+			(uuid "f3295f67-037d-4a07-88d1-6144e07ff07d")
 		)
 		(instances
 			(project ""
@@ -2961,16 +3001,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "2b86262c-6613-4651-81fc-eedec56c6870")
+			(uuid "2b86262c-6613-4651-81fc-eedec56c6872")
 		)
 		(pin "3"
-			(uuid "a4a8d644-a8f2-4398-8241-9f4e4b4b598e")
+			(uuid "a4a8d644-a8f2-4398-8241-9f4e4b4b5990")
 		)
 		(pin "1"
-			(uuid "e73575dd-2aea-46f9-803d-553927b79e82")
+			(uuid "e73575dd-2aea-46f9-803d-553927b79e84")
 		)
 		(pin "4"
-			(uuid "f3295f67-037d-4a07-88d1-6144e07ff07c")
+			(uuid "f3295f67-037d-4a07-88d1-6144e07ff07e")
 		)
 		(instances
 			(project ""
@@ -3034,16 +3074,16 @@
 			)
 		)
 		(pin "3"
-			(uuid "3bab00b2-3542-42a4-9e49-d8329f7f8bdb")
+			(uuid "3bab00b2-3542-42a4-9e49-d8329f7f8bdd")
 		)
 		(pin "1"
-			(uuid "722cbf0f-ca8d-4cfc-9978-a20aafc93f43")
+			(uuid "722cbf0f-ca8d-4cfc-9978-a20aafc93f45")
 		)
 		(pin "2"
-			(uuid "597fe709-9080-4c14-aee5-cd522253eb5a")
+			(uuid "597fe709-9080-4c14-aee5-cd522253eb5c")
 		)
 		(pin "4"
-			(uuid "e3d87c43-834d-4f4f-82de-8ef0f6944233")
+			(uuid "e3d87c43-834d-4f4f-82de-8ef0f6944235")
 		)
 		(instances
 			(project ""
@@ -3166,6 +3206,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 186.69 127.635 90)
+			(uuid "d7247acd-99b2-4b83-bfb2-a4be59ea2311")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 194.31 127.635 90)
+			(uuid "26c719db-e979-49c7-aabc-fe5621142e11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RxD" input
+			(at 189.23 127.635 90)
+			(uuid "8fb75167-954f-4f9e-b695-656877257af3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TxD" output
+			(at 191.77 127.635 90)
+			(uuid "7e8c6c16-b781-4f12-bfbe-cadd8488f006")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
