@@ -2349,15 +2349,15 @@
 		(dnp no)
 		(uuid "06da4e35-bd78-40a3-9960-ecb9eee1a705")
 		(property "Reference" "J107"
-			(at 52.705 109.855 90)
+			(at 59.055 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 52.705 112.2793 90)
+		(property "Value" "XHP4"
+			(at 59.055 111.6443 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,8 +2588,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x08_Socket"
-			(at 44.45 75.565 0)
+		(property "Value" "XHP8"
+			(at 60.325 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,15 +2740,15 @@
 		(dnp no)
 		(uuid "aace38f8-55ff-4c00-9a50-601e5c1c6a41")
 		(property "Reference" "J110"
-			(at 165.735 109.3357 90)
+			(at 142.24 108.585 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 165.735 111.76 90)
+		(property "Value" "XHP3"
+			(at 142.24 111.0093 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,15 +2884,15 @@
 		(dnp no)
 		(uuid "c92f976e-bac6-4da7-aefe-2e8e4e3e3624")
 		(property "Reference" "J108"
-			(at 97.155 109.9707 90)
+			(at 102.87 108.7007 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 97.155 112.395 90)
+		(property "Value" "XHP4"
+			(at 102.87 111.125 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,15 +2958,15 @@
 		(dnp no)
 		(uuid "e3301b16-ead7-4a71-a460-9e8aef0168ca")
 		(property "Reference" "J109"
-			(at 205.105 109.3357 90)
+			(at 179.705 108.585 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 205.105 111.76 90)
+		(property "Value" "XHP4"
+			(at 179.705 111.0093 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,7 +3491,7 @@
 				(justify left)
 			)
 		)
-		(pin "SCL" output
+		(pin "SCL" bidirectional
 			(at 47.625 48.895 270)
 			(uuid "313ca399-1f19-48f9-a442-58ce400cf89c")
 			(effects
@@ -3501,7 +3501,7 @@
 				(justify left)
 			)
 		)
-		(pin "SDA" output
+		(pin "SDA" bidirectional
 			(at 49.53 48.895 270)
 			(uuid "3c75c0a2-d468-42b1-9b89-e840b33d7b28")
 			(effects
