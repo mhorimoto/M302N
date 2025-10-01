@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "M302N")(type "KiCad")(uri "${M302N}/M302N-symlib.kicad_sym")(options "")(descr ""))
+)
