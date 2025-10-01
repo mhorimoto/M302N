@@ -7,10 +7,307 @@
 	(title_block
 		(title "M302N-ULTRA for Green HOUSE")
 		(date "2025-10-01")
-		(rev "2.00")
+		(rev "2.10")
 		(company "YS Lab")
+		(comment 1 "Append DDS1")
 	)
 	(lib_symbols
+		(symbol "001-rescue:EMI_Filter_LCL-Device"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FL"
+				(at 0 6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Device_EMI_Filter_LCL"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Filter* Resonator*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EMI_Filter_LCL-Device_0_1"
+				(rectangle
+					(start -5.715 3.81)
+					(end 5.715 0)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -5.08 2.54)
+					(mid -4.572 3.0458)
+					(end -4.064 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.064 2.54)
+					(mid -3.556 3.0458)
+					(end -3.048 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.048 2.54)
+					(mid -2.54 3.0458)
+					(end -2.032 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 2.54)
+					(mid -1.524 3.0458)
+					(end -1.016 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 2.54) (xy 1.016 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 0.762)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.016 1.524)
+					(end -1.016 1.778)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 1.016 2.54)
+					(mid 1.524 3.0458)
+					(end 2.032 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.032 2.54)
+					(mid 2.54 3.0458)
+					(end 3.048 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.048 2.54)
+					(mid 3.556 3.0458)
+					(end 4.064 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.064 2.54)
+					(mid 4.572 3.0458)
+					(end 5.08 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "EMI_Filter_LCL-Device_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
@@ -2216,6 +2513,12 @@
 		(uuid "9de3da44-c461-4340-b00e-911f5607a1f7")
 	)
 	(junction
+		(at 186.69 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a097c1bc-a433-4b54-b687-6d4f1bd9369a")
+	)
+	(junction
 		(at 116.84 106.045)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2289,6 +2592,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 85.09) (xy 186.69 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0848e960-80ed-49d0-9712-e5fd77ed43ba")
+	)
+	(wire
+		(pts
 			(xy 134.62 96.52) (xy 127 96.52)
 		)
 		(stroke
@@ -2296,6 +2609,16 @@
 			(type default)
 		)
 		(uuid "08c1d6d9-be7f-45cf-ba33-d59d37e868cf")
+	)
+	(wire
+		(pts
+			(xy 181.61 95.885) (xy 181.61 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1010951f-844c-4e61-a856-8218a201af80")
 	)
 	(wire
 		(pts
@@ -2589,7 +2912,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 71.755) (xy 181.61 97.79)
+			(xy 182.245 85.09) (xy 186.69 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ccdb719-2027-4974-be8f-f14bfe35620c")
+	)
+	(wire
+		(pts
+			(xy 177.165 71.755) (xy 177.165 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2789,6 +3122,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.165 95.885) (xy 181.61 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9552b917-e5ba-4c1d-a941-0fcea2abec8f")
+	)
+	(wire
+		(pts
 			(xy 67.945 113.03) (xy 67.945 127)
 		)
 		(stroke
@@ -2809,7 +3152,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 69.215) (xy 186.69 97.79)
+			(xy 186.69 69.215) (xy 186.69 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2836,6 +3179,16 @@
 			(type default)
 		)
 		(uuid "9c17f9fe-1c67-4b81-9b61-fb585818dc2f")
+	)
+	(wire
+		(pts
+			(xy 177.165 92.71) (xy 177.165 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4322b0c-9f9d-4165-995f-726e30f6540b")
 	)
 	(wire
 		(pts
@@ -3109,7 +3462,7 @@
 	)
 	(wire
 		(pts
-			(xy 75.565 71.755) (xy 181.61 71.755)
+			(xy 75.565 71.755) (xy 177.165 71.755)
 		)
 		(stroke
 			(width 0)
@@ -3599,10 +3952,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e97c040-be81-436e-af65-3665cc959738")
+			(uuid "3e97c040-be81-436e-af65-3665cc959739")
 		)
 		(pin "2"
-			(uuid "8c7a3657-1aa3-4c81-abae-c2fdf4ace225")
+			(uuid "8c7a3657-1aa3-4c81-abae-c2fdf4ace226")
 		)
 		(instances
 			(project ""
@@ -3668,10 +4021,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e97c040-be81-436e-af65-3665cc959738")
+			(uuid "3e97c040-be81-436e-af65-3665cc95973a")
 		)
 		(pin "2"
-			(uuid "8c7a3657-1aa3-4c81-abae-c2fdf4ace225")
+			(uuid "8c7a3657-1aa3-4c81-abae-c2fdf4ace227")
 		)
 		(instances
 			(project ""
@@ -3809,10 +4162,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e97c040-be81-436e-af65-3665cc959738")
+			(uuid "3e97c040-be81-436e-af65-3665cc95973b")
 		)
 		(pin "2"
-			(uuid "8c7a3657-1aa3-4c81-abae-c2fdf4ace225")
+			(uuid "8c7a3657-1aa3-4c81-abae-c2fdf4ace228")
 		)
 		(instances
 			(project ""
@@ -4053,6 +4406,77 @@
 			(project ""
 				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "001-rescue:EMI_Filter_LCL-Device")
+		(at 179.705 85.09 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e09d8af6-b1ab-40cf-ba02-a329fd47992f")
+		(property "Reference" "FL101"
+			(at 171.6532 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF DDS1"
+			(at 173.9646 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HOLLY2:DSS1"
+			(at 179.705 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb"
+			(at 179.705 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.705 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "566f3e14-92ab-4c18-9d3c-0252f681b7ce")
+		)
+		(pin "3"
+			(uuid "c63bd0ad-ec98-4714-bf03-ab8e384fac75")
+		)
+		(pin "2"
+			(uuid "66d97211-97f8-4c27-8e14-2dc12bf2e57d")
+		)
+		(instances
+			(project "M302ULTRA"
+				(path "/d9d02f3f-e7de-4839-b3af-9017ce7335aa"
+					(reference "FL101")
 					(unit 1)
 				)
 			)
