@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "1e58df26-fb93-424a-94e8-8dd108141e6a")
 	(paper "A4")
+	(title_block
+		(title "M302N-ULTRA Temperature sensor")
+		(date "2025-10-01")
+		(rev "1.00")
+		(company "YS Lab")
+	)
 	(lib_symbols
 		(symbol "M302N-symlib:SHT40_STEMMA"
 			(exclude_from_sim no)

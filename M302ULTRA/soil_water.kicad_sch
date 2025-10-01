@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "0f66956b-f490-47d7-a6db-fe149282614a")
 	(paper "A4")
+	(title_block
+		(title "M302N-ULTRA Soil Water sensor")
+		(date "2025-10-01")
+		(rev "1.00")
+		(company "YS Lab")
+	)
 	(lib_symbols
 		(symbol "Connector:DIN-5"
 			(pin_names

@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "d9d02f3f-e7de-4839-b3af-9017ce7335aa")
 	(paper "A4")
+	(title_block
+		(title "M302N-ULTRA for Green HOUSE")
+		(date "2025-10-01")
+		(rev "1.00")
+		(company "YS Lab")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Socket"
 			(pin_names

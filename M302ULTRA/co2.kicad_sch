@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "94640fce-53c0-4056-b660-f17237b0597d")
 	(paper "A4")
+	(title_block
+		(title "M302N-ULTRA CO2 Sensor")
+		(date "2025-10-01")
+		(rev "1.00")
+		(company "YS Lab")
+	)
 	(lib_symbols
 		(symbol "M302N-symlib:IMG_CA0012"
 			(exclude_from_sim no)

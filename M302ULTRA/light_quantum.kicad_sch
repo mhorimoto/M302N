@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "85843fe5-b150-498d-9923-4f9daad48f8e")
 	(paper "A4")
+	(title_block
+		(title "M302N-ULTRA SQ-100X-SS")
+		(date "2025-10-01")
+		(rev "1.00")
+		(company "YS Lab")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
